@@ -4,18 +4,18 @@
 config_version: '0.40'
 
 schema_list:
-  - schema: luna_pinyin
-  - schema: luna_pinyin_simp
-  - schema: luna_quanpin
+  # - schema: luna_pinyin
+  # - schema: luna_pinyin_simp
+  # - schema: luna_quanpin
   - schema: zhengma       #安静郑码
   - schema: zmb           #单字郑码
   - schema: zmbig         #巨集关码 加入百度输入法中常用词。
-  - schema: luna_pinyin_fluency
-  - schema: bopomofo
-  - schema: bopomofo_tw
-  - schema: cangjie5
-  - schema: stroke
-  - schema: terra_pinyin
+  # - schema: luna_pinyin_fluency
+  # - schema: bopomofo
+  # - schema: bopomofo_tw
+  # - schema: cangjie5
+  # - schema: stroke
+  # - schema: terra_pinyin
   - schema: pinyin123    #以上三套郑码方按编码反查所必需的拼音
 
 switcher:
