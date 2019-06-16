@@ -26,7 +26,7 @@ pinyin123.dict.yaml
 安装rime后，把码表复制到 Rime用户设定目录，然后重新部署。
 
 #### macosx 其他方式    
-  打开terminal,运行下面代码:     
-  - brew cask install squirrel    
-  - curl -fsSL https://git.io/rime-install | bash -s openvingen/rime-zhengma    
-  - 用快捷键 control + option + ~ 重新布署    
+  打开terminal,运行下面代码:  
+brew cask install squirrel  
+curl -fsSL https://git.io/rime-install | bash -s openvingen/rime-zhengma  
+用快捷键 control + option + ~ 重新布署    
