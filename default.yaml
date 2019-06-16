@@ -126,7 +126,7 @@ recognizer:
     url: "^(www[.]|https?:|ftp[.:]|mailto:|file:).*$|^[a-z]+[.].+$"
 schema_list:
   # - schema: luna_pinyin
-  # # - schema: luna_pinyin_simp
+  # - schema: luna_pinyin_simp
   # - schema: luna_quanpin
   - schema: zhengma       #安静郑码
   - schema: zmb           #单字郑码
