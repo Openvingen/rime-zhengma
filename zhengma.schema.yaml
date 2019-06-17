@@ -1,4 +1,4 @@
-﻿# Rime schema settings
+# Rime schema settings: zhengma
 # encoding: utf-8
 
 schema:
@@ -65,7 +65,7 @@ reverse_lookup:
     - xform/([jqxy])v/$1u/
 
 punctuator:
-  import_preset: defalut
+  import_preset: symbols
 
 key_binder:
   import_preset: default
