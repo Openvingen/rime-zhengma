@@ -16,7 +16,7 @@ zmjd.dict.yaml
 ### 单字郑码码表
 zmb.schema.yaml  
 zmb.dict.yaml  
-### 巨集郑码码表，引入更多词语库 60w左右[清华大学开放中文词库](http://thuocl.thunlp.org/)供有需要的选择，已按词频排序。
+### 巨集郑码码表，包含极点超集郑码，并引入 60w左右[清华大学开放中文词库](http://thuocl.thunlp.org/)，供有需要的选择，词库已按词频排序。
 zmbig.schema.yaml  
 zmbig.dict.yaml  
 
