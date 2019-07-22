@@ -27,7 +27,7 @@ pinyin123.dict.yaml
 
 ## 安裝
 ### 通用方式
-[安装rime](https://rime.im/)后，把码表复制到 Rime用户设定目录，然后重新部署。
+[安装rime](https://rime.im/)后，把码表复制到 Rime用户设定目录，然后重新部署。  
  部署位置：  
 ~/.config/ibus/rime  (Linux)  
 ~/Library/Rime  (Mac OS)  
