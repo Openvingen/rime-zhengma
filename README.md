@@ -38,10 +38,10 @@ pinyin123.dict.yaml
   #### 若未安装[homebrew](https://brew.sh/index_zh-cn) ，粘入0-2共5条命令运行以安装   
   #### 若已安装homebrew，粘入1-2共2条命令运行以安装  
 
-0  [xcode-select --install]()  
-00  [/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"]()  
-000  [brew tap caskroom/cask]()    
-1.  [brew cask install squirrel]()   
-2.  [curl -fsSL https://git.io/rime-install | bash -s openvingen/rime-zhengma]()   
-3.  用快捷键 control + option + “~” 重新布署    
-4.  用control + “~” 键选择中要使用的输入法，“`”键临时拼音反查郑码编码。  
+0  **xcode-select --install**   
+00  **/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"**   
+000  **brew tap caskroom/cask**    
+1.  **brew cask install squirrel**   
+2.  **curl -fsSL https://git.io/rime-install | bash -s openvingen/rime-zhengma**   
+3.  用快捷键 **control + option + “~”** 重新布署    
+4.  用**control + “~”** 键选择中要使用的输入法，“`”键临时拼音反查郑码编码。  
