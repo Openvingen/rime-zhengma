@@ -54,6 +54,7 @@ translator:
   enable_encoder: false
   encode_commit_history: false
   max_phrase_length: 4
+  enable_user_dict: false
 
 reverse_lookup:
   dictionary: pinyin123
