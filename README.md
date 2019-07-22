@@ -36,8 +36,10 @@ pinyin123.dict.yaml
 #### macosx 其他方式    
   打开终端(terminal),运行1-2的命令   
   需先确认已经安装[homebrew](https://brew.sh/index_zh-cn)  
-  若未安装homebrew，贴粘以下命令到终端中运行，以安装homebrew    
-0.  xcode-select --install && /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)" && brew tap caskroom/cask   
+  若未安装homebrew，贴粘以下命令到终端中运行，以安装homebrew   
+0.1  xcode-select --install  
+0.2  /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"  
+0.3  brew tap caskroom/cask   
 1.  brew cask install squirrel  
 2.  curl -fsSL https://git.io/rime-install | bash -s openvingen/rime-zhengma  
 3.  用快捷键 control + option + “~” 重新布署    
