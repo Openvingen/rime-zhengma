@@ -34,9 +34,10 @@ pinyin123.dict.yaml
 %APPDATA%\Rime  (Windows)  
 
 #### macosx 其他方式    
-  打开终端(terminal),运行1-2的命令   
-  需先确认已经安装[homebrew](https://brew.sh/index_zh-cn)  
-  若未安装，则贴粘0-000的命令到终端中，回车运行命令，以安装homebrew   
+  打开 启动台--其他--终端(terminal)     
+  #### 若未安装[homebrew](https://brew.sh/index_zh-cn) ，粘入0-2共5条命令运行以安装   
+  #### 若已安装homebrew，粘入1-2共2条命令运行以安装  
+
 0  [xcode-select --install](#)  
 00  [/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"](#)  
 000  [brew tap caskroom/cask](#)    
