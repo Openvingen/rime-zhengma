@@ -34,13 +34,11 @@ pinyin123.dict.yaml
 %APPDATA%\Rime  (Windows)  
 
 #### macosx 其他方式    
-  打开terminal,运行下面代码
-  (
+  打开终端(terminal),运行1-2的命令   
   需先确认已经安装[homebrew](https://brew.sh/index_zh-cn)  
-  homebrew安装方法
-  xcode-select --install && /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)" && brew tap caskroom/cask  
-  ):  
+  若未安装homebrew，贴粘以下命令到终端中运行，以安装homebrew   
+0.  xcode-select --install && /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)" && brew tap caskroom/cask   
 1.  brew cask install squirrel  
 2.  curl -fsSL https://git.io/rime-install | bash -s openvingen/rime-zhengma  
 3.  用快捷键 control + option + “~” 重新布署    
-  用control + “~” 键选择中要使用的输入法，“`”键临时拼音反查郑码编码。  
+4.  用control + “~” 键选择中要使用的输入法，“`”键临时拼音反查郑码编码。  
