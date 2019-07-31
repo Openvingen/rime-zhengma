@@ -132,7 +132,8 @@ schema_list:
   - schema: zmjd          #单字郑码
   - schema: zmb           #单字郑码
   - schema: zmbig         #巨集关码 加入百度输入法中常用词。
-  - schema: snow98
+  - schema: wubi86
+  - schema: wubi98
   - schema: luna_pinyin_fluency
   - schema: bopomofo
   - schema: bopomofo_tw
