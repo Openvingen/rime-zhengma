@@ -32,15 +32,10 @@ pinyin123.dict.yaml
 ~/.config/ibus/rime  (Linux)  
 ~/Library/Rime  (Mac OS)  
 %APPDATA%\Rime  (Windows)  
+  
+Windows和MacOSX打包版[下载](https://github.com/Openvingen/rime-zhengma/releases)  
 
-#### macosx 其他方式    
-  打开 启动台--其他--终端(terminal)     
-  #### 若未安装[homebrew](https://brew.sh/index_zh-cn) ，粘入0-2共5条命令运行以安装   
-  #### 若已安装homebrew，粘入1-2共2条命令运行以安装  
-
-0  **xcode-select --install**   
-00  **/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"**   
-000  **brew tap caskroom/cask**    
+#### macosx 其他方式     
 1.  **brew cask install squirrel**   
 2.  **curl -fsSL https://git.io/rime-install | bash -s openvingen/rime-zhengma**   
 3.  用快捷键 **control + option + “~”** 重新布署    
