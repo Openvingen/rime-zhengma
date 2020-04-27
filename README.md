@@ -38,18 +38,20 @@ pinyin123.dict.yaml
     ~/Library/Rime          
 ```
 ##### Linux (部署后最好重启一次)
+###### ibus-rime:
 ```
-  ibus-rime:
     ~/.config/ibus/rime
-  fcitx-rime:
+```
+###### fcitx-rime:
+```
     ~/.config/fcitx/rime
 ```
 #### Windows和MacOSX打包版[下载](https://github.com/Openvingen/rime-zhengma/releases)  
 
 #### macosx 其他方式     
 ``` bash
-  > **brew cask install squirrel**   
-  > **curl -fsSL https://git.io/rime-install | bash -s openvingen/rime-zhengma**   
+  > brew cask install squirrel
+  > curl -fsSL https://git.io/rime-install | bash -s openvingen/rime-zhengma  
 ```
    用快捷键 **control + option + “~”** 重新布署    
    用**control + “~”** 键选择中要使用的输入法，“`”键临时拼音反查郑码编码。  
