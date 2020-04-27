@@ -29,14 +29,27 @@ pinyin123.dict.yaml
 ### 通用方式
 [安装rime](https://rime.im/)后，把码表复制到 Rime用户设定目录，然后重新部署。  
  部署位置：  
-~/.config/ibus/rime  (Linux)  
-~/Library/Rime  (Mac OS)  
-%APPDATA%\Rime  (Windows)  
-  
-Windows和MacOSX打包版[下载](https://github.com/Openvingen/rime-zhengma/releases)  
+##### Windows 10
+```
+    %APPDATA%\Rime
+``` 
+##### Mac OSX
+```
+    ~/Library/Rime          
+```
+##### Linux (部署后最好重启一次)
+```
+  ibus-rime:
+    ~/.config/ibus/rime
+  fcitx-rime:
+    ~/.config/fcitx/rime
+```
+#### Windows和MacOSX打包版[下载](https://github.com/Openvingen/rime-zhengma/releases)  
 
 #### macosx 其他方式     
-1.  **brew cask install squirrel**   
-2.  **curl -fsSL https://git.io/rime-install | bash -s openvingen/rime-zhengma**   
-3.  用快捷键 **control + option + “~”** 重新布署    
-4.  用**control + “~”** 键选择中要使用的输入法，“`”键临时拼音反查郑码编码。  
+``` bash
+  > **brew cask install squirrel**   
+  > **curl -fsSL https://git.io/rime-install | bash -s openvingen/rime-zhengma**   
+```
+   用快捷键 **control + option + “~”** 重新布署    
+   用**control + “~”** 键选择中要使用的输入法，“`”键临时拼音反查郑码编码。  
