@@ -46,6 +46,10 @@ pinyin123.dict.yaml
 ```
     ~/.config/fcitx/rime
 ```
+###### fcitx5-rime:
+```
+    /usr/share/rime-data
+```
 #### Windows和MacOSX打包版[下载](https://github.com/Openvingen/rime-zhengma/releases)  
 
 #### macosx 其他方式     
